@@ -6,11 +6,10 @@ const config = {
   startVelocity: "71",
   elementCount: "96",
   dragFriction: "0.19",
-  duration: "2190",
+  duration: "2500",
   stagger: "0",
   width: "10px",
   height: "10px",
-  perspective: "1000px",
   colors: ["#a864fd", "#29cdff", "#78ff44", "#ff718d", "#fdff6a"]
 };
 
@@ -22,7 +21,7 @@ function App() {
 
   return (
     <div className="mt-52">
-      <section className="sm:px-[1.5rem] sm:py-[2.5rem] lg:px-[2rem] bg-[radial-gradient(56.8%_50%_at_50%_50%,#ffeccc_0,hsla(0,0%,100%,0)_100%)] max-w-[80rem] mx-auto overflow-x-hidden ">
+      <section className="sm:px-[1.5rem] sm:py-[2.5rem] lg:px-[2rem] bg-[radial-gradient(56.8%_50%_at_50%_50%,#ffeccc_0,hsla(0,0%,100%,0)_100%)] max-w-[80rem] mx-auto  ">
         <div className="text-center max-w-[42rem] mx-auto">
           <span className="bg-[linear-gradient(135deg,rgba(255,187,0,.1),rgba(253,119,2,.1))] tracking-[.5px] leading-[1.5rem] uppercase py-[.5rem] px-[1rem] rounded-[9999px] inline-flex mb-[1.25rem] ">
             <strong className="bg-[linear-gradient(315deg,#fd7702,#fb0)] text-transparent font-extrabold text-[.875rem] leading-[1.25rem] bg-clip-text">LIMITED DISCOUNT</strong>
@@ -44,10 +43,10 @@ function App() {
             <button className="sm:w-auto font-medium py-[.5rem] px-[2rem] border-transparent rounded-[.375rem] ml-[.125rem] bg-transparent m-0">yearly</button>
           </div>
         </div>
-        <div className="mx-auto relative w-[.25rem]">
-          <div className="relative">
-            <Confetti active={activeConfettie} config={config} />
-          </div>
+        <div className="mx-auto relative w-[.25rem] overflow-visible">
+
+          <Confetti active={activeConfettie} config={config} />
+
         </div>
       </section>
     </div>
