@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className="mt-52">
-      <section className="sm:px-[1.5rem] sm:py-[2.5rem] lg:px-[2rem] bg-[radial-gradient(56.8%_50%_at_50%_50%,#ffeccc_0,hsla(0,0%,100%,0)_100%)] max-w-[80rem] mx-auto overflow-hidden ">
+      <section className="sm:px-[1.5rem] sm:py-[2.5rem] lg:px-[2rem] bg-[radial-gradient(56.8%_50%_at_50%_50%,#ffeccc_0,hsla(0,0%,100%,0)_100%)] max-w-[80rem] mx-auto overflow-x-hidden ">
         <div className="text-center max-w-[42rem] mx-auto">
           <span className="bg-[linear-gradient(135deg,rgba(255,187,0,.1),rgba(253,119,2,.1))] tracking-[.5px] leading-[1.5rem] uppercase py-[.5rem] px-[1rem] rounded-[9999px] inline-flex mb-[1.25rem] ">
             <strong className="bg-[linear-gradient(315deg,#fd7702,#fb0)] text-transparent font-extrabold text-[.875rem] leading-[1.25rem] bg-clip-text">LIMITED DISCOUNT</strong>
